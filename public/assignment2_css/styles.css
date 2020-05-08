@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+header > div > h1 {
+    color: darkslateblue;
+    text-decoration: underline;
+}
+
+article {
+    background-color: darkslateblue;
+    margin: 3%;
+    padding: 1%;
+}
+
+td{
+    border: 5px solid  darkslateblue;
+    color: white;
+}
+td:first-child{
+    padding-right: 70px;
+}
+
+input[type=text],input[type=email],textarea{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+input[type=radio],input[type=checkbox]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type=reset],input[type=submit]{
+    margin: 2px;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}

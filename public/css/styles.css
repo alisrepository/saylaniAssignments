@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top_header {
+    background-color: #0073e6;
+    text-align: center;
+}
+
+.hTop_image, .hTop_text,.hTop_text > p, .hTop_buttons {
+    display: inline;
+}
+.hTop_image > a > img, .hTop_text > p, .hTop_buttons > input[type = Button] {
+    margin: 10px 5px 10px 5px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.hTop_text > p {
+    color: white;
+}
+.hTop_buttons > input[type = Button] {
+    color: green;
+}
+.hTop_buttons > input:hover {
+    cursor: pointer;
+}
+
+.bottom_header{
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom_header .img_container, .dropdown_container{
+    display: inline;
+    background-color: brown;
+}
+.img_container img{
+    height: 50px;
+}
+/*-----------------MEDIA-QUERIES------------*/
+
+@media only screen and (max-width: 1140px) {
+    
+    
+    .hTop_image, .hTop_text,.hTop_text > p, .hTop_buttons {
+        display: block;
+    }
+    .hTop_image > a > img, .hTop_text > p, .hTop_buttons > input[type = Button] {
+        margin: 5px 5px 5px 5px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+
+  }

@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #3B5998;
+    height: 30%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+header .social-media, header .text, header .buttons{
+    display: inline;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+input[type = 'button']{
+    padding: 5px 10px;
+    color: green
+}
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+nav .logo, nav .links {
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 50px;
+}
+ul,li{
+    display: inline;
+}
+li{
+    margin: 2px;
+    padding: 5px;
+    border: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+li:first-child a{
+    background-color: #3B5998;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+li a:hover{
+    background-color: #3B5998;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.slide-container {
+  width: 1210px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.image-container {
+  width: 2800px;
+  height: 600px;
+  position: relative;
+  transition: left 2s;
+}
+
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button-container {
+  top: -20px;
+  position: relative;
+}
+
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+#image-slider-1:target ~ .image-container {
+  left: 0px;
+}
+#image-slider-2:target ~ .image-container {
+  left: 1200px;
+}
+.intro{
+  margin-top: 100px;
+  text-align: center;
+}
+.intro1, .intro2 {
+  display: inline;
+}
+.intro1{
+  font-size: 30px;
+  color: #3B5998;
+}
+.intro2{
+  font-size: 30px;
+  color: rgb(84, 139, 0);
+}
+
+.text-container{
+  padding: 100px;
+}
+.text-container p{
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.general-info-container {
+  width: 100%;
+  background-color: rgb(19, 86, 230);
+  padding: 100px;
+  text-align: center;
+}
+.daily_dusterkhwan, .family-adopted, .medical, .education {
+  display: inline-flex;
+}
+table{
+  margin: 50px;
+}
+td{
+  font-size: 25px;
+  color: white;
+}
+.green{
+  color: rgb(0, 250, 0);
+  font-size: 25px;
+}
+
+.what-we-r-doing-container {
+  text-align: center;
+  background-color: lightgray;
+  padding: 60px;
+}
+
+.what-we-r-doing-text .blue{
+  display: inline;
+  color: #3B5998;
+  font-size: 40px;
+}
+
+.what-we-r-doing-text .green{
+  display: inline;
+  color: green;
+  font-size: 40px;
+}
+
+.upper-1, .lower-1 {
+  text-align: center;
+  display: inline-flex;
+  background-color: white;
+  margin: 15px;
+  box-shadow: darkgray;
+  width: 20%;
+}
+
+.upper-1 table tr td p, .lower-1 table tr td p {
+  color: #125688;
+  text-align: center;
+}
+
+
+
+
+footer{
+  background-color: rgb(26, 31, 31);
+  padding: 90px;
+}
+.left p{
+  color: gainsboro;
+  margin: 6px;
+}
+
+.left, .middle, .right {
+  display: inline-table;
+  margin-right: 190px;
+}
+
+.middle p{
+  color: white;
+  font-size: 19px;
+}
+.right h3{
+  color: white;
+  font-size: 19px;
+}
+
+  @media only screen and (max-width: 1100px) {
+    header .social-media, header .text, header .buttons{
+        display: block;
+        color: white;
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .links{
+      background-color: wheat;
+    }
+
+
+    nav .logo, nav .links {
+      display: block;
+      margin: 0px 50px;
+  }
+  ul,li{
+      display: block;
+  }
+  li a{
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+  }
+  li:first-child a{
+      background-color: #3B5998;
+      color: white;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  li a:hover{
+      background-color: #3B5998;
+      color: white;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  
+  .text-container{
+    padding: 2px;
+  }
+
+  .daily_dusterkhwan, .family-adopted, .medical, .education {
+    display: block;
+  }
+
+
+  .upper-1, .lower-1 {
+    text-align: center;
+    display: block;
+    background-color: white;
+    margin: 15px;
+    box-shadow: darkgray;
+    width: 250px;
+  }
+  
+  .upper-1 table tr td p, .lower-1 table tr td p {
+    color: #125688;
+    text-align: center;
+  }
+
+  .left, .middle, .right {
+    display: block;
+    margin-right: 190px;
+    margin-bottom: 20px;
+  }
+
+  }
